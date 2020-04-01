@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
 class ReactApp extends Component {
+  static defaultProps = {
+    name: "기본이름"
+  };
   render() {
     return (
       <div>
